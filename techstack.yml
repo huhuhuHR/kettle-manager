@@ -1,0 +1,489 @@
+repo_name: huhuhuHR/kettle-manager
+report_id: 82d13f6869e5da868df357399988d392
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:26:24+00:00'
+requested_by: majinju
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/doc/sql/mysql/KM.sql
+  detection_source: doc/sql/mysql/KM.sql
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  version: 2.5.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: com.jfinal:jfinal
+  description: JFinal is a simple, light, rapid,independent, extensible Java WEB +
+    ORM framework
+  version: '2.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+  vulnerabilities:
+  - name: jFinal Server-Side Template Injection vulnerability
+    cve_id: CVE-2021-31635
+    cve_url: https://github.com/advisories/GHSA-cgmm-c2m9-ff7r
+    detected_date: Jun 30
+    severity: critical
+    first_patched:
+  - name: JFinal Java Deserialization Vulnerability
+    cve_id: CVE-2021-31649
+    cve_url: https://github.com/advisories/GHSA-h3j8-fr5q-8rfr
+    detected_date: Jul 12
+    severity: critical
+    first_patched:
+  - name: Directory Traversal in JFinalCMS
+    cve_id: CVE-2023-50449
+    cve_url: https://github.com/advisories/GHSA-7x2g-4jvc-4x6p
+    detected_date: Dec 14
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/nav/save
+    cve_id: CVE-2023-49446
+    cve_url: https://github.com/advisories/GHSA-hv4c-v8j8-54cw
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/category/delete
+    cve_id: CVE-2023-49398
+    cve_url: https://github.com/advisories/GHSA-mwvq-gc5w-m78f
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/category/updateStatus
+    cve_id: CVE-2023-49397
+    cve_url: https://github.com/advisories/GHSA-5f56-h6fg-rcrh
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/category/save
+    cve_id: CVE-2023-49396
+    cve_url: https://github.com/advisories/GHSA-882g-gjqp-9vjp
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/div/delete
+    cve_id: CVE-2023-49382
+    cve_url: https://github.com/advisories/GHSA-6v55-h6m5-2352
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/tag/save
+    cve_id: CVE-2023-49383
+    cve_url: https://github.com/advisories/GHSA-rq2q-hc6h-2px2
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/category/update
+    cve_id: CVE-2023-49395
+    cve_url: https://github.com/advisories/GHSA-8hch-q86g-j38w
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/div/update
+    cve_id: CVE-2023-49381
+    cve_url: https://github.com/advisories/GHSA-r222-mcff-27ff
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/slide/update
+    cve_id: CVE-2023-49374
+    cve_url: https://github.com/advisories/GHSA-r7w2-j96v-vw8m
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/friend_link/delete
+    cve_id: CVE-2023-49380
+    cve_url: https://github.com/advisories/GHSA-765f-3mgx-24pw
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via the component /admin/friend_link/save
+    cve_id: CVE-2023-49379
+    cve_url: https://github.com/advisories/GHSA-r2wj-mxvh-wqfh
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/form/save
+    cve_id: CVE-2023-49378
+    cve_url: https://github.com/advisories/GHSA-gw26-cchc-8f2f
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/tag/update
+    cve_id: CVE-2023-49377
+    cve_url: https://github.com/advisories/GHSA-r6mg-fq87-gw34
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/friend_link/update
+    cve_id: CVE-2023-49375
+    cve_url: https://github.com/advisories/GHSA-gfhv-xxqj-h323
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS
+    cve_id: CVE-2023-49376
+    cve_url: https://github.com/advisories/GHSA-w492-7g9m-j2ww
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS
+    cve_id: CVE-2023-49372
+    cve_url: https://github.com/advisories/GHSA-9wvj-wr2f-6mx6
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS
+    cve_id: CVE-2023-49373
+    cve_url: https://github.com/advisories/GHSA-cj7j-23wf-mhrx
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-Site Request Forgery in JFinalCMS via admin/nav/delete
+    cve_id: CVE-2023-49448
+    cve_url: https://github.com/advisories/GHSA-pv3g-vc3q-8c9g
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: JFinal file validation vulnerability
+    cve_id: CVE-2019-17352
+    cve_url: https://github.com/advisories/GHSA-279p-pc38-xx4p
+    detected_date: May 26
+    severity: high
+    first_patched: '4.5'
+  - name: Cross-Site Request Forgery in JFinalCMS via /admin/nav/update
+    cve_id: CVE-2023-49447
+    cve_url: https://github.com/advisories/GHSA-32j2-c7mx-v4jj
+    detected_date: Dec 12
+    severity: high
+    first_patched:
+  - name: Cross-site Scripting in JFinal
+    cve_id: CVE-2024-22493
+    cve_url: https://github.com/advisories/GHSA-3j4x-9q9q-3277
+    detected_date: Jan 24
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in Jfinal CMS
+    cve_id: CVE-2022-33113
+    cve_url: https://github.com/advisories/GHSA-9pvq-4cc7-24jg
+    detected_date: Jun 26
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinalCMS
+    cve_id: CVE-2023-49485
+    cve_url: https://github.com/advisories/GHSA-f2w8-4m48-5qrq
+    detected_date: Dec 13
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinalCMS
+    cve_id: CVE-2023-49486
+    cve_url: https://github.com/advisories/GHSA-hjfp-2j7q-xmx4
+    detected_date: Dec 13
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinalCMS
+    cve_id: CVE-2023-49487
+    cve_url: https://github.com/advisories/GHSA-m42v-qv3c-h6j7
+    detected_date: Dec 13
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinal
+    cve_id: CVE-2024-22497
+    cve_url: https://github.com/advisories/GHSA-qh2w-9m7w-hjg2
+    detected_date: Jan 25
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinalcms
+    cve_id: CVE-2023-50137
+    cve_url: https://github.com/advisories/GHSA-xv7p-jw46-8r85
+    detected_date: Dec 15
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinalcms
+    cve_id: CVE-2023-50102
+    cve_url: https://github.com/advisories/GHSA-p3ph-6245-4wfc
+    detected_date: Dec 15
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinalcms
+    cve_id: CVE-2023-50101
+    cve_url: https://github.com/advisories/GHSA-m3p6-43xj-pf9v
+    detected_date: Dec 15
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinalcms
+    cve_id: CVE-2023-50100
+    cve_url: https://github.com/advisories/GHSA-3hf6-f8ch-5869
+    detected_date: Dec 15
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinal
+    cve_id: CVE-2024-22496
+    cve_url: https://github.com/advisories/GHSA-v435-pfj6-68r3
+    detected_date: Jan 24
+    severity: moderate
+    first_patched:
+  - name: Cross-site Scripting in JFinal
+    cve_id: CVE-2024-22492
+    cve_url: https://github.com/advisories/GHSA-859h-4w58-78xw
+    detected_date: Jan 24
+    severity: moderate
+    first_patched:
+  - name: Cross-site scripting in jfinal
+    cve_id: CVE-2021-33348
+    cve_url: https://github.com/advisories/GHSA-2c25-xfpq-8w9r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.9.11
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 5.1.20
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in MySQL Connectors Java
+    cve_id: CVE-2018-3258
+    cve_url: https://github.com/advisories/GHSA-4vrv-ch96-6h42
+    detected_date: Jun 29
+    severity: high
+    first_patched: 8.0.13
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2017-3523
+    cve_url: https://github.com/advisories/GHSA-2xxh-f8r3-hvvr
+    detected_date: Jul 2
+    severity: high
+    first_patched: 5.1.41
+  - name: Privilege escalation in mysql-connector-jav
+    cve_id: CVE-2019-2692
+    cve_url: https://github.com/advisories/GHSA-jcq3-cprp-m333
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.0.16
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3586
+    cve_url: https://github.com/advisories/GHSA-pwh7-92h3-mqr6
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: 5.1.42
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2015-2575
+    cve_url: https://github.com/advisories/GHSA-gc43-g62c-99g2
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 5.1.35
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3589
+    cve_url: https://github.com/advisories/GHSA-cjcf-wm2p-59h5
+    detected_date: Jul 2
+    severity: low
+    first_patched: 5.1.42
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: cglib:cglib-nodep
+  description: Cglib is a powerful
+  version: '3.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: com.jfinal:cos
+  description: Cos
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: com.jfinal:jetty-server
+  description: Jetty Server
+  version: 8.1.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: net.sf.ehcache:ehcache-core
+  description: This is the ehcache core module
+  version: 2.5.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
+- name: net.sourceforge.jexcelapi:jxl
+  description: JExcelApi is a java library which provides the ability to read
+  version: 2.6.12
+  license: LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/kettle-manager/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: 马进举
+  last_updated_on: 2017-06-19 14:12:17.000000000 Z
